@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แทงบอลสเต็ป Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>แทงบอลสเต็ป Calculator</h1>
+        <div id="bets">
+            <!-- Team inputs will be added here -->
+        </div>
+        <button class="btn" id="addTeam">เพิ่มทีม</button>
+        <label>เงินเดิมพัน: <input type="text" id="stake"></label>
+        <button class="btn" onclick="calculate()">คำนวณ</button>
+        <h2>ผลลัพธ์: <span id="result">0 บาท</span></h2>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
